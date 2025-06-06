@@ -1,5 +1,5 @@
 local Scripts = {
-   [1234567890] = "link",
+   [4777817887] = "",
 }
 local url = Scripts[game.PlaceId] or Scripts[game.GameId]
 if url then

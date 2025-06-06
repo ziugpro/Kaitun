@@ -1,5 +1,5 @@
 local Scripts = {
-   [4777817887] = "",
+   [4777817887] = "https://raw.githubusercontent.com/ziugpro/Kaitun/refs/heads/main/BladeBall",
 }
 local url = Scripts[game.PlaceId] or Scripts[game.GameId]
 if url then

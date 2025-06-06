@@ -1,0 +1,7 @@
+local Scripts = {
+   [1234567890] = "link",
+}
+local url = Scripts[game.PlaceId] or Scripts[game.GameId]
+if url then
+    loadstring(game:HttpGetAsync(url))()
+end
